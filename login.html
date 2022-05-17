@@ -1,0 +1,28 @@
+<!Doctype html>
+<html lang="en">
+<head>
+    <title>login</title>
+</head>
+<body>
+    Welcome to the WUSTl CSE News!
+    <p>Please fill out the information below to login!</p>
+    <form action=login.php method="post">
+        <p> Username: <input type="text" name="Username"> </p>
+        <p> Password: <input type="password" name="Password"> </p>
+        <p> <input type="Submit" value="Log in"> </p>
+    </form>
+    <br>
+    <p>Please fill out the information below to register!</p>
+    <form action=register.php method="post">
+        <p> Username: <input type="text" name="Username"> </p>
+        <p> Password: <input type="password" name="Password"> </p>
+        <p> Re-enter: <input type="password" name="Password1"> </p>
+        <p> Email: <input type="text" name="Email"></p>
+        <p> WUSTL ID: <input type="number" name="Wustl_ID"></p>
+        <p> <input type="Submit" value="Register"> </p>
+    </form>
+    <form action="wustlcsenews.php" method="post">
+        <p><input type="Submit" value="Return to the main page"></p>
+    </form>
+</body>
+</html>
